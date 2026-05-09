@@ -1,6 +1,6 @@
 base_url = "https://muhammadahmed-01.github.io/"
-title = "site title"
-description = "YOUR_SITE_DESCRIPTION"
+title = "Systems & Stories"
+description = "Backend systems, production lessons, and engineering case studies."
 author = "Muhammad Ahmed"
 theme = "tabi"
 generate_feeds = true
@@ -98,7 +98,6 @@ remote_repository_branch = "main"  # Defaults to "main".
 # Show a link to the commit history of updated posts, right next to the last updated date.
 # Can be set at page or section levels, following the hierarchy: page > section > config. See: https://welpo.github.io/tabi/blog/mastering-tabi-settings/#settings-hierarchy
 show_remote_changes = true  # Defaults to true.
-# Show a link to the repository of the site, right next to the "Powered by Zola & tabi" text.
 show_remote_source = true  # Defaults to true.
 
 # Add a "copy" button to codeblocks (loads ~700 bytes of JavaScript).
@@ -249,10 +248,8 @@ invert_title_order = false
 # social_media_card = ""
 
 menu = [
-    { name = "blog", url = "blog", trailing_slash = true },
-    { name = "archive", url = "archive", trailing_slash = true },
-    { name = "tags", url = "tags", trailing_slash = true },
-    { name = "projects", url = "projects", trailing_slash = true },
+    { name = "case studies", url = "case-studies", trailing_slash = true },
+    { name = "learnings", url = "projects", trailing_slash = true },
 ]
 
 # The RSS icon will be shown if (1) it's enabled and (2) the following variable is set.

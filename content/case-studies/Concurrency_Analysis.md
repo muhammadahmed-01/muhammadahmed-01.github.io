@@ -1,13 +1,11 @@
 +++
-title = "💥 The \"Money Vanishing\" War Story: Concurrency & Data Integrity!"
+title = "💥 The \"Money Vanishing\" Story: Concurrency & Data Integrity!"
 date = "2026-05-08"
 description = ""
 
 [taxonomies]
 tags = ["concurrency-analysis"]
 +++
-
-# 💥 The "Money Vanishing" War Story: Concurrency & Data Integrity
 
 > Maps directly to **DDIA Chapter 7 (Transactions)** and **Chapter 8 (Distributed Systems)**.
 >
