@@ -1,101 +1,43 @@
 +++
-
 title = "About"
-
 path = "about"
-
 template = "info-page.html"
-
 +++
 
-  
+I’m Muhammad Ahmed — a backend engineer based in Lahore, currently building and operating distributed systems at **Careem** (Uber's $3.1B acquisition).
 
-# About
+### The Investigative Mindset
+I have always had a curious mind. Since childhood, I’ve been driven to investigate peculiar things, wanting to understand how they work beneath the surface. That same investigative spirit now drives my career in engineering. I don't just want to "make it run"—I want to know *why* it works, *how* it fails, and where the hidden inefficiencies are hiding. 
 
-  
+At Careem, I apply this to things that matter when systems get serious: reliability under load, observability in opaque environments, and cost efficiency when the cloud bill arrives.
 
-I'm Muhammad — a backend engineer based in Lahore, building and operating distributed systems at **Careem**, the Middle East's largest ride-hailing platform (Uber's $3.1B acquisition).
+### What I Do
+I work at the intersection of system reliability and measurable business impact. Some of my recent investigations include:
 
-  
+* **Latency Engineering:** Eliminated an **8-second endpoint bottleneck** (reducing it to **<1s**) by identifying $N+1$ query patterns through distributed traces and implementing batch calls.
+* **Observability:** Instrumented **Segment Builder**, a mission-critical data platform, with 3-layer Redis observability on Dynatrace. This gave our team visibility into a previously opaque dependency for the first time.
+* **Al-Driven Tooling:** Co-built an **MCP Server and Slack Bot** that enables stakeholders to resolve queries in **under 60 seconds**, down from a 30-minute manual process.
+* **FinOps:** Designed multi-stage S3 Lifecycle Policies that cut log storage by **88%**, reducing monthly cloud costs for targeted services by **83%**.
 
-I work on the things that matter when systems get serious: reliability under load, data integrity under concurrency, observability when something breaks at 2am, and cost efficiency when the cloud bill arrives.
-
-  
-
-Most of my best work started with a question I couldn't answer without measuring it. Why did latency spike 18× when we went from 10 to 100 users? Why did the monitoring show all green while $9,640 vanished silently from a ledger? Those questions led to real findings — and the findings are what I write about here.
-
-  
-
-I work well independently, communicate in writing, and operate effectively across timezones. I've owned production systems on-call, driven initiatives end-to-end, and shipped things that required aligning engineers, product, and stakeholders across multiple teams.
-
-  
-
----
-
-  
-
-## Background
-
-  
-
-- 3 years at **Careem** — owning reliability for 15+ microservices in multi-region production
-
-- **AWS Certified Solutions Architect – Associate** (861/1000)
-
-- CS graduate from **FAST-NUCES** — Dean's List (2×)
-
-  
+### Background
+* **Experience:** 3+ years at **Careem**, owning reliability for **15+ microservices** handling peak traffic of **300k RPM**.
+* **Certification:** **AWS Certified Solutions Architect – Associate** (Score: **861/1000**).
+* **Education:** CS graduate from **FAST-NUCES** — Dean's List (2x).
+* **Community:** Contributor to **Infracost**, adding pricing support for AWS SageMaker resources to help engineers see costs before they deploy.
 
 ---
-
-  
-
-## Stack
-
-  
-
-**Languages:** Go, Java  
-
-**Infrastructure:** AWS, Kubernetes, Docker, Kafka  
-
-**Observability:** Prometheus, Grafana, Dynatrace  
-
-**Data:** PostgreSQL, Redis  
-
-  
-
----
-
-  
 
 ## Now
-
-  
-
 *(Updated May 2026)*
 
-  
-
-- Writing production case studies based on real experiments — starting with [the concurrency one](/case-studies/concurrency-analysis/)
-
-- Contributing to open source infrastructure tooling
-
-- Going deeper on distributed systems — currently working through DDIA and building experiments to validate what I read
-
-- Open to backend engineering roles where distributed systems, reliability, and observability matter
-
-  
+* **Case Studies:** I’m currently writing deep-dives into production experiments, like my [concurrency analysis](/case-studies/concurrency-analysis/) that proved how a "perfect" dashboard can hide silent data corruption.
+* **Experiments:** Building local labs to validate concepts from *Designing Data-Intensive Applications* (DDIA).
+* **Open Source:** Continuing to contribute to open source.
+* **Opportunities:** I am open to backend roles where distributed systems, reliability engineering, and investigative observability are the core focus.
 
 ---
 
-  
-
 ## Get In Touch
-
-  
-
-**Email:** [muhammad.ahmed112719@gmail.com](mailto:muhammad.ahmed112719@gmail.com)  
-
-**LinkedIn:** [linkedin.com/in/muhammadahmed](https://linkedin.com/in/muhammadahmed)  
-
+**Email:** [muhammad.ahmed112719@gmail.com](mailto:muhammad.ahmed112719@gmail.com)  
+**LinkedIn:** [linkedin.com/in/muhammadahmed](https://linkedin.com/in/muhammadahmed)  
 **GitHub:** [github.com/muhammadahmed-01](https://github.com/muhammadahmed-01)
