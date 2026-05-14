@@ -249,7 +249,8 @@ invert_title_order = false
 
 menu = [
     { name = "case studies", url = "case-studies", trailing_slash = true },
-    { name = "learnings", url = "projects", trailing_slash = true },
+    { name = "learnings", url = "learnings", trailing_slash = true },
+    { name = "projects", url = "projects", trailing_slash = true },
 ]
 
 # The RSS icon will be shown if (1) it's enabled and (2) the following variable is set.

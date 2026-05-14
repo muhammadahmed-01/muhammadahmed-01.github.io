@@ -4,7 +4,6 @@ date = "2026-05-08"
 description = ""
 
 [taxonomies]
-tags = ["concurrency-analysis"]
 +++
 
 > Maps directly to **DDIA Chapter 7 (Transactions)** and **Chapter 8 (Distributed Systems)**.
