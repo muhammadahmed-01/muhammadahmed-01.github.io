@@ -1,10 +1,8 @@
----
-title: "What I Learned Building a FinOps Control Plane for an AI Gateway"
-date: 2026-06-09
-description: "Hybrid RAG, cost routing, LangSmith traces, and Grafana metrics on a local AI gateway lab."
----
-
-# What I Learned Building a FinOps Control Plane for an AI Gateway
++++
+title = "What I Learned Building a FinOps Control Plane for an AI Gateway"
+date = 2026-06-09
+description = "Hybrid RAG, cost routing, LangSmith traces, and Grafana metrics on a local AI gateway lab."
++++
 
 Most teams add a chatbot and discover two problems later: **token spend has no owner**, and **retrieval changes are impossible to compare**.
 

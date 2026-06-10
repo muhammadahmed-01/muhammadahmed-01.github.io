@@ -1,9 +1,7 @@
 +++
 title = "💥 The \"Money Vanishing\" Story: Concurrency & Data Integrity!"
 date = "2026-05-08"
-description = ""
-
-[taxonomies]
+description = "Go concurrency lab: 800 VUs, ledger integrity, OCC vs pessimistic locking."
 +++
 
 > Maps directly to **DDIA Chapter 7 (Transactions)** and **Chapter 8 (Distributed Systems)**.
