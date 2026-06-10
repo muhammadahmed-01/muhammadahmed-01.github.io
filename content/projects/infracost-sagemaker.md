@@ -1,6 +1,7 @@
 +++
 title = "Shift-Left FinOps: Adding SageMaker Support to Infracost"
 date = 2026-05-10
+description = "Infracost Go PR for SageMaker endpoints, serverless inference, shadow variants, and async Terraform pricing."
 +++
 
 # Project Overview
