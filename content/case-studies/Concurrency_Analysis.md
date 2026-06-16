@@ -4,9 +4,11 @@ date = "2026-05-08"
 description = "Go concurrency lab: 800 VUs, ledger integrity, OCC vs pessimistic locking."
 +++
 
+> **GitHub (reproduce locally):** https://github.com/muhammadahmed-01/Go-Concurrency-Ledger-Integrity · **Measured results:** [k6/K6_RESULTS.md](https://github.com/muhammadahmed-01/Go-Concurrency-Ledger-Integrity/blob/master/k6/K6_RESULTS.md)
+>
 > Maps directly to **DDIA Chapter 7 (Transactions)** and **Chapter 8 (Distributed Systems)**.
 >
-> **Hardware:** Intel i5-12500H · 16GB RAM · Windows 11 (battery — absolute latencies would be lower on AC/server hardware; relative comparisons hold)
+> **Hardware:** Intel i5-12500H · 16GB RAM · Windows 11 (battery; absolute latencies would be lower on AC/server hardware; relative comparisons hold)
 > **Stack:** Go · PostgreSQL · Prometheus · Grafana · k6
 > **Load:** 800 VUs ramped over 50s (200 → 500 → 800), starting balance: **$1,000,000**
 
