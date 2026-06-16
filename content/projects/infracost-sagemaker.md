@@ -4,8 +4,7 @@ date = 2026-05-10
 description = "Infracost Go PR for SageMaker endpoints, serverless inference, shadow variants, and async Terraform pricing."
 +++
 
-# Project Overview
-**GitHub PR:** [infracost/infracost#3567](https://github.com/infracost/infracost/pull/3567) (Awaiting Review)
+**GitHub PR:** [infracost/infracost#3567](https://github.com/infracost/infracost/pull/3567) (open, awaiting upstream review)
 
 "Shift-Left FinOps" is about moving cost visibility as far forward in the development lifecycle as possible. This project involved contributing to **Infracost**, a tool that sits in the CI/CD pipeline to show engineers the "price tag" of their Terraform changes before they hit production.
 
